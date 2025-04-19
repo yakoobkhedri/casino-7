@@ -111,6 +111,13 @@ a {
 .transition {
   @apply transition-all duration-300;
 }
+/* swiper */
+.swiper-slide-visible{
+  opacity: 0;
+}
+.swiper-slide-visible.swiper-slide-prev,.swiper-slide-visible.swiper-slide-next,.swiper-slide-visible.swiper-slide-active{
+  opacity: 100%;
+}
 /* hover */
 .btnHover {
   transition: all .4s;
